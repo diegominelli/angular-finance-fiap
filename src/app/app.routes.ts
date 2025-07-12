@@ -22,7 +22,7 @@ export const routes: Routes = [
       ),
   },
   {
-    path: 'outro-servicos',
+    path: 'outros-servicos',
     loadChildren: () =>
       import('./features/outros-servicos/outros-servicos.module').then(
         (m) => m.OutrosServicosModule
